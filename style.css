@@ -74,13 +74,13 @@
 @media only screen and (max-width: 425px)
 {
    .calc-body{
-    height: 615px;
-     width: 330px;
+    height: 630px;
+     width: 325px;
      margin: 7vh 0vh 0 5vh;
    }
    .btn{
     height: 420px;
-    width: 315px;
+    width: 305px;
     margin: 20px 0 0 8px;
     flex-wrap: wrap;
     justify-content: center;
@@ -90,22 +90,22 @@
   }
   .calc-body input{
     height: 120px;
-    width: 285px;
+    width: 275px;
     border: none;
     border-radius: 10px;
     margin: 25px 0 0 15px;
     background-color: rgb(77, 74, 74);
   }
   .box{
-    height: 17vmin;
-    width: 16vmin;
+    height: 20vmin;
+    width: 19vmin;
     background-color: rgb(57, 93, 125);
     border-radius: 35px;
     margin: 3px;
     margin-top: 10px;
   }
   .box2{
-    height: 16vmin;
+    height: 19vmin;
     width: 34vmin;
   }
 }
