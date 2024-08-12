@@ -4,17 +4,13 @@
   background-color: beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.main{
-  height: 80vmin;
-  margin: 7vh 0vh 0 75vh;
-  
-}
 .calc-body{
-  height: 80vmin;
+ height: 80vmin;
   width: 55vmin;
   border-radius: 20px;
   background-color: rgb(54, 51, 51);
   padding: 5px;  
+  margin: 7vh 0vh 0 75vh;
 }
 .calc-body input{
   height: 15vmin;
@@ -38,7 +34,7 @@
   height: 55vmin;
   width: 54vmin;
   border-radius: 10px;
-  background-color:  rgb(54, 51, 51);
+  background-color:   rgb(54, 51, 51);
   margin: 25px 0 0 5px;
   flex-wrap: wrap;
   justify-content: center;
@@ -48,12 +44,10 @@
 }
 .show{
   color: rgb(198, 198, 198);
-  font-size: 40px;
+  font-size: 50px;
   margin: 100vmin;
   text-align:right;
   padding: 7px;
-  
-  
 }
 .box{
   height: 10vmin;
@@ -75,3 +69,44 @@
   box-shadow: 10px;
   border: none;
 }
+
+
+@media only screen and (max-width: 625px)
+{
+   .calc-body{
+    height: 615px;
+     width: 330px;
+     margin: 7vh 0vh 0 5vh;
+   }
+   .btn{
+    height: 420px;
+    width: 315px;
+    margin: 20px 0 0 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .calc-body input{
+    height: 120px;
+    width: 285px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 0 0 15px;
+    background-color: rgb(77, 74, 74);
+  }
+  .box{
+    height: 17vmin;
+    width: 16vmin;
+    background-color: rgb(57, 93, 125);
+    border-radius: 35px;
+    margin: 3px;
+    margin-top: 10px;
+  }
+  .box2{
+    height: 16vmin;
+    width: 34vmin;
+  }
+}
+
